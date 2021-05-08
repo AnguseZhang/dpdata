@@ -1688,7 +1688,4 @@ def elements_index_map(elements,standard=False,inverse=False):
         return dict(zip(range(len(elements)),elements))
     else:
         return dict(zip(elements,range(len(elements))))
-
-
-
 # %%
